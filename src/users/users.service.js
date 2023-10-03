@@ -5,7 +5,6 @@ export class UserService {
     return await User.findOne({
       where: {
         id,
-        //status: true,
       },
     });
   }
