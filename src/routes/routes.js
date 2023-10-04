@@ -4,6 +4,6 @@ import { router as usersRouter } from '../users/users.route.js';
 
 export const router = Router();
 
-//lo que pomnga aca se concatena cpom /Api/V1
+//lo que ponnga aca se concatena con /Api/V1
 router.use('/users', usersRouter);
 router.use('/repairs', repairsRouter);
